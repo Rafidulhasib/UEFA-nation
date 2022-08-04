@@ -1,17 +1,66 @@
 /*------------------
  Font Family
- -------------------*/
- {
+   {
  font-family:'Pacifico', cursive;
  }
+ -------------------*/
 
- .banner{
-    display: flex;
-    background-color: black;
-    width: 90%;
-    height: 90%;
-    
- }
- .banner-img{
-    position: right;
- }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  /* height: 90%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.banner {
+  /* display: flex;  */
+  background-color: black;
+  color: azure;
+
+  /* font-size: 50px;
+    font-weight: 200; */
+  border-radius: 30px;
+  width: 85%;
+  padding-left: 2rem;
+  /* height: 90%; */
+}
+
+.banner-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side {
+  margin-left: 70px;
+}
+
+.left-side > h1 {
+  font-family: "Kanit", sans-serif;
+
+  font-weight: 900;
+  font-size: 55px;
+}
+
+img {
+  height: 700px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  width: 9rem;
+  height: 2rem;
+}
