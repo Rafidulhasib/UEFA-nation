@@ -1,0 +1,17 @@
+/*------------------
+ Font Family
+ -------------------*/
+ {
+ font-family:'Pacifico', cursive;
+ }
+
+ .banner{
+    display: flex;
+    background-color: black;
+    width: 90%;
+    height: 90%;
+    
+ }
+ .banner-img{
+    position: right;
+ }
