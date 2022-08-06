@@ -136,3 +136,30 @@ article > img {
   gap: 40px;
   color: grey;
 }
+
+/*-------------------
+ footer style
+ -------------------- */
+.footer {
+  height: 500px;
+  background-color: #0f0f0f;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text {
+  display: flex;
+
+  justify-content: center;
+  gap: 25px;
+}
+.footer-content {
+  width: 100%;
+  color: white;
+}
+.footer-content > h1 {
+  display: flex;
+  justify-content: center;
+}
